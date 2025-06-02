@@ -1,0 +1,21 @@
+review:
+  enable: true
+  mode: pr
+  suggestions: true
+  summary: true
+  language: auto
+
+  approvals:
+    auto_approve: false
+
+  rules:
+    complexity_check: true
+    security_check: true
+    naming_conventions: true
+    test_coverage: true
+    docstrings: true
+
+filters:
+  ignore:
+    - "**/*.md"
+    - "docs/**"
