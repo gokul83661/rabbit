@@ -10,6 +10,7 @@ test ('Built in locator', async ({page}) => {
     await page.getByPlaceholder('Username').fill('Admin');
     await page.getByPlaceholder('Password').fill('admin123');
     console.log("this is sample")
+    //this is test
 
     // page.getByLabel - used in input box form control
    // await page.getByLabel('Username').fill('Admin');
