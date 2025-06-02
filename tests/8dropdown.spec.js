@@ -33,6 +33,7 @@ test ('Handle DropDown selection Methods ', async ({page}) => {
 test ('Handle multiselected drop down', async ({page}) => {
     await page.goto('https://testautomationpractice.blogspot.com/');
     // await page.selectOption('[id="colors"]',['Red','Blue','Green']);
+    // await page.locator('[id="colors"]').selectOption(['Red','Blue','Green']);
     // await page.waitForTimeout(2000);
 
     /*
